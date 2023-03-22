@@ -3,8 +3,8 @@
 import UIKit
 
 class ListViewController: UIViewController {
-    let fetcher = ConfigFetcher()
     
+    let fetcher = ConfigFetcher()
     var config : AppConfig? {
         didSet{
             DispatchQueue.main.async {
@@ -12,22 +12,15 @@ class ListViewController: UIViewController {
             }
         }
     }
-    
     @IBOutlet weak var productCollectionView: UICollectionView!
-    
-
-
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         self.productCollectionView.register(UINib(nibName: "PizzaCell", bundle: nil), forCellWithReuseIdentifier: "PizzaCell")
-
         productCollectionView.delegate = self
         productCollectionView.dataSource = self
         fetchData()
     }
-    
     func fetchData(){
         fetcher.fetchConfig{ [weak self] (error, config) -> Void in
             
@@ -37,8 +30,6 @@ class ListViewController: UIViewController {
             self?.config = config
         }
     }
-
-    
 }
 
 extension ListViewController: UICollectionViewDataSource, UICollectionViewDelegate{

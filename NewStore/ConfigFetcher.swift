@@ -4,7 +4,7 @@ import Foundation
 
 class ConfigFetcher{
     
-    let configURL = URL(string: "https://raw.githubusercontent.com/Schultz91155/Pizza1/main/Pizza1/ProductStorage.json")!
+    let configURL = URL(string: "https://raw.githubusercontent.com/einvolko/NewStore/main/Source/PizzaSource.json")!
     
     func fetchConfig (completion : @escaping ((Error? , AppConfig?) -> Void) ){
         
