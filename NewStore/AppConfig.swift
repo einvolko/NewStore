@@ -14,5 +14,4 @@ struct AppConfig: Codable{
 }
 struct ProductList: Codable{
        let pizzaList: [Pizza]
-       let rollList: [Rolls]
    }

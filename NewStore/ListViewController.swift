@@ -32,7 +32,7 @@ class ListViewController: UIViewController {
     }
 }
 
-extension ListViewController: UICollectionViewDataSource, UICollectionViewDelegate{
+extension ListViewController: UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout{
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return config?.productList.pizzaList.count ?? 0
@@ -44,9 +44,12 @@ extension ListViewController: UICollectionViewDataSource, UICollectionViewDelega
             cell.setupPizzaCell(product: product)
             
         }
-        
         return cell
     }
-    
-    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        return CGSize(width: UIScreen.main.bounds.width - 20, height: UIScreen.main.bounds.width)
+    }
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
+        return 0
+    }
 }
