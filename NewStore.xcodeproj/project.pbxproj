@@ -9,13 +9,19 @@
 /* Begin PBXBuildFile section */
 		BFCAEA5D29CADAE70048C623 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCAEA5C29CADAE70048C623 /* AppDelegate.swift */; };
 		BFCAEA5F29CADAE70048C623 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCAEA5E29CADAE70048C623 /* SceneDelegate.swift */; };
-		BFCAEA6129CADAE70048C623 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCAEA6029CADAE70048C623 /* ViewController.swift */; };
 		BFCAEA6429CADAE70048C623 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFCAEA6229CADAE70048C623 /* Main.storyboard */; };
 		BFCAEA6629CADAE90048C623 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFCAEA6529CADAE90048C623 /* Assets.xcassets */; };
 		BFCAEA6929CADAE90048C623 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFCAEA6729CADAE90048C623 /* LaunchScreen.storyboard */; };
 		BFCAEA7429CADAE90048C623 /* NewStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCAEA7329CADAE90048C623 /* NewStoreTests.swift */; };
 		BFCAEA7E29CADAE90048C623 /* NewStoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCAEA7D29CADAE90048C623 /* NewStoreUITests.swift */; };
 		BFCAEA8029CADAE90048C623 /* NewStoreUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCAEA7F29CADAE90048C623 /* NewStoreUITestsLaunchTests.swift */; };
+		BFCAEA9129CADF4F0048C623 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCAEA9029CADF4F0048C623 /* ListViewController.swift */; };
+		BFCAEA9529CAE1210048C623 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCAEA9329CAE1210048C623 /* ProductCell.swift */; };
+		BFCAEA9629CAE1210048C623 /* ProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFCAEA9429CAE1210048C623 /* ProductCell.xib */; };
+		BFCAEA9829CAE5FF0048C623 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCAEA9729CAE5FF0048C623 /* Product.swift */; };
+		BFCAEA9A29CB180A0048C623 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCAEA9929CB180A0048C623 /* AppConfig.swift */; };
+		BFCAEA9C29CB20810048C623 /* ConfigFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCAEA9B29CB20810048C623 /* ConfigFetcher.swift */; };
+		BFCAEAA029CB339C0048C623 /* BasketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCAEA9F29CB339C0048C623 /* BasketViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +45,6 @@
 		BFCAEA5929CADAE70048C623 /* NewStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFCAEA5C29CADAE70048C623 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFCAEA5E29CADAE70048C623 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BFCAEA6029CADAE70048C623 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BFCAEA6329CADAE70048C623 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BFCAEA6529CADAE90048C623 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFCAEA6829CADAE90048C623 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +54,13 @@
 		BFCAEA7929CADAE90048C623 /* NewStoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewStoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFCAEA7D29CADAE90048C623 /* NewStoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewStoreUITests.swift; sourceTree = "<group>"; };
 		BFCAEA7F29CADAE90048C623 /* NewStoreUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewStoreUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BFCAEA9029CADF4F0048C623 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		BFCAEA9329CAE1210048C623 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		BFCAEA9429CAE1210048C623 /* ProductCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductCell.xib; sourceTree = "<group>"; };
+		BFCAEA9729CAE5FF0048C623 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		BFCAEA9929CB180A0048C623 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		BFCAEA9B29CB20810048C623 /* ConfigFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigFetcher.swift; sourceTree = "<group>"; };
+		BFCAEA9F29CB339C0048C623 /* BasketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +111,17 @@
 		BFCAEA5B29CADAE70048C623 /* NewStore */ = {
 			isa = PBXGroup;
 			children = (
+				BFCAEA9229CAE0C20048C623 /* MenuCells */,
 				BFCAEA5C29CADAE70048C623 /* AppDelegate.swift */,
 				BFCAEA5E29CADAE70048C623 /* SceneDelegate.swift */,
-				BFCAEA6029CADAE70048C623 /* ViewController.swift */,
+				BFCAEA9029CADF4F0048C623 /* ListViewController.swift */,
 				BFCAEA6229CADAE70048C623 /* Main.storyboard */,
-				BFCAEA6529CADAE90048C623 /* Assets.xcassets */,
+				BFCAEA9F29CB339C0048C623 /* BasketViewController.swift */,
 				BFCAEA6729CADAE90048C623 /* LaunchScreen.storyboard */,
+				BFCAEA6529CADAE90048C623 /* Assets.xcassets */,
+				BFCAEA9729CAE5FF0048C623 /* Product.swift */,
+				BFCAEA9B29CB20810048C623 /* ConfigFetcher.swift */,
+				BFCAEA9929CB180A0048C623 /* AppConfig.swift */,
 				BFCAEA6A29CADAE90048C623 /* Info.plist */,
 			);
 			path = NewStore;
@@ -125,6 +142,15 @@
 				BFCAEA7F29CADAE90048C623 /* NewStoreUITestsLaunchTests.swift */,
 			);
 			path = NewStoreUITests;
+			sourceTree = "<group>";
+		};
+		BFCAEA9229CAE0C20048C623 /* MenuCells */ = {
+			isa = PBXGroup;
+			children = (
+				BFCAEA9329CAE1210048C623 /* ProductCell.swift */,
+				BFCAEA9429CAE1210048C623 /* ProductCell.xib */,
+			);
+			path = MenuCells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFCAEA6929CADAE90048C623 /* LaunchScreen.storyboard in Resources */,
+				BFCAEA9629CAE1210048C623 /* ProductCell.xib in Resources */,
 				BFCAEA6629CADAE90048C623 /* Assets.xcassets in Resources */,
 				BFCAEA6429CADAE70048C623 /* Main.storyboard in Resources */,
 			);
@@ -258,9 +285,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFCAEA6129CADAE70048C623 /* ViewController.swift in Sources */,
 				BFCAEA5D29CADAE70048C623 /* AppDelegate.swift in Sources */,
+				BFCAEA9529CAE1210048C623 /* ProductCell.swift in Sources */,
 				BFCAEA5F29CADAE70048C623 /* SceneDelegate.swift in Sources */,
+				BFCAEA9A29CB180A0048C623 /* AppConfig.swift in Sources */,
+				BFCAEA9129CADF4F0048C623 /* ListViewController.swift in Sources */,
+				BFCAEA9C29CB20810048C623 /* ConfigFetcher.swift in Sources */,
+				BFCAEAA029CB339C0048C623 /* BasketViewController.swift in Sources */,
+				BFCAEA9829CAE5FF0048C623 /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,8 +474,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationLandscapeRight;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -451,9 +483,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ru.suprun.NewStore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -469,8 +504,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationLandscapeRight;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -478,9 +513,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ru.suprun.NewStore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
