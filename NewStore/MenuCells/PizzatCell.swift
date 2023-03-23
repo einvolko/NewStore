@@ -2,15 +2,27 @@
 
 import UIKit
 
-class PizzaCell: UICollectionViewCell {
+class PizzaCell: UICollectionViewCell, UITableViewDataSource {
     
-    @IBOutlet weak var nameLabel: UILabel!
-        
+    let config : AppConfig?
+ 
+    @IBOutlet weak var tableView: UITableView!
+    
+    @IBOutlet weak var tableViewCell: UITableViewCell!
+    
+    @IBOutlet weak var labelCell: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
        
     }
     func setupPizzaCell (product: Pizza){
-        nameLabel.text = product.name
+    
+    }
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        config?.productList.pizzaList.count ?? 0
+    }
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        <#code#>
     }
 }

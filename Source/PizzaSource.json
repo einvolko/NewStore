@@ -12,6 +12,18 @@
             {
                 "name": "Peperoni"
             }
+        ],
+        "rollList":
+        [
+            {
+                "name": "Маргарита"
+            },
+            {
+                "name": "Cesar"
+            },
+            {
+                "name": "Peperoni"
+            }
         ]
     }
 }
